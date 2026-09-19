@@ -7,27 +7,25 @@ Given n, calculate F(n).
 """
 
 class Solution:
-    def __init__(self):
-        self.res = []
-
-    def fib_rec(self, n):
-        if n == 0:
-            self.res[0] = 0
-            return 0
-        if n == 1:
-            self.res[1] = 1
-            return 1
-        if self.res[n] != 0:
-            return self.res[n]
-        
-        self.res[n] = self.fib_rec(n-1) + self.fib_rec(n-2)
-        
-        return self.res[n]
-
     def fib(self, n: int) -> int:
-        self.res = [0] * (n + 1)
+        prev1 = 0
+        prev2 = 1
+        current = 0
 
-        return self.fib_rec(n)
+        if n == 0:
+            return prev1
+        if n == 1:
+            return prev2
+
+        for _ in range(2, n+1):
+            current = prev1 + prev2
+            prev1 = prev2
+            prev2 = current
+        
+        return current
+
+
+        
 
 
         
