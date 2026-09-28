@@ -5,7 +5,6 @@
 */
 
 import java.util.HashMap;
-import java.util.Map;
 
 class Solution {
     public int subarraySum(int[] nums, int k) {
