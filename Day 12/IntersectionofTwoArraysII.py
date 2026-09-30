@@ -4,23 +4,18 @@ Given two integer arrays nums1 and nums2, return an array of their intersection.
 
 class Solution:
     def intersect(self, nums1: list[int], nums2: list[int]) -> list[int]:
-        set1 = set(nums1)
-        set2 = set(nums2)
-        intersect = set1.intersection(set2)
-
         map1 = {}
-        map2 = {}
+        res = []
 
         for num in nums1:
             map1[num] = map1.get(num, 0) + 1
         
         for num in nums2:
-            map2[num] = map2.get(num, 0) + 1
+            if num in map1 and map1[num] > 0:
+                res.append(num)
+                map1[num] -= 1
         
-        res = []
-
-        for num in intersect:
-            res.extend([num] * min(map1[num], map2[num]))
         
         return res
+        
         
