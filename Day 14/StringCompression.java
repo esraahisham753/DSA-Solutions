@@ -23,34 +23,36 @@ class Solution {
             if (chars[i] == chars[i - 1]) {
                 count++;
             } else if (count >= 10) {
+                chars[slow++] = chars[i - 1];
+
                 String countStr = String.valueOf(count);
 
                 for (char digit : countStr.toCharArray()) {
-                    chars[++slow] = digit;
+                    chars[slow++] = digit;
                 }
 
-                chars[++slow] = chars[i];
                 count = 1;
             } else if (count > 1) {
-                chars[++slow] = (char) ('0' + count);
-                chars[++slow] = chars[i];
+                chars[slow++] = chars[i - 1];
+                chars[slow++] = (char) ('0' + count);
                 count = 1;
             } else {
-                slow++;
-                chars[slow] = chars[i];
+                chars[slow++] = chars[i - 1];
             }
         }
+
+        chars[slow++] = chars[chars.length - 1];
 
         if (count >= 10) {
             String countStr = String.valueOf(count);
 
             for (char digit : countStr.toCharArray()) {
-                chars[++slow] = digit;
+                chars[slow++] = digit;
             }
         } else if (count > 1) {
-            chars[++slow] = (char) ('0' + count);
+            chars[slow++] = (char) ('0' + count);
         }
 
-        return slow + 1;
+        return slow;
     }
 }
