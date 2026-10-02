@@ -1,58 +1,80 @@
-# LeetCode DSA Solutions
+# DSA Practice Solutions
 
-This repository contains my solutions to Data Structures and Algorithms problems from LeetCode.
+This repository contains my daily LeetCode and DSA practice solutions, organized by day and topic.
 
-The goal is to practice problem solving, improve algorithmic thinking, and keep a clean record of solved problems.
+The purpose is to strengthen problem-solving skills, improve coding consistency, and keep a structured record of solved questions.
 
 ## Repository Structure
 
-Solutions are stored as individual files, usually named with the problem number and title.
+The workspace is organized into folders such as:
 
-Example:
+- Day 1
+- Day 2
+- Day 3
+- Day 4
+- Day 5
+- Day 6
+- Day 7
+- Day 8
+- Day 9
+- Day 10
+- Day 11
+- Day 12
+- Day 13
+- Day 14
 
-```text
-1-runningSum.py
-```
+Each folder contains multiple solution files, usually named with the problem number and title.
 
-## Current Solutions
+## Languages Used
 
-| # | Problem | Language |
-|---|---------|----------|
-| 1 | Running Sum | Python |
+- Python
+- Java
 
-## Topics Covered
+## Current Progress
 
-This repository may include problems from topics such as:
+This repository currently includes over 38 solution files across the listed days, covering topics such as:
 
 - Arrays
 - Strings
-- Hash Maps
+- Hashing
 - Two Pointers
 - Sliding Window
-- Stack and Queue
-- Linked Lists
-- Trees
-- Graphs
-- Recursion
-- Dynamic Programming
-- Sorting and Searching
+- Stack / Queue
+- Prefix Sums
+- Greedy Logic
+- Binary Search
+- Dynamic Programming fundamentals
+
+## Example File Names
+
+```text
+Day 1/
+  1-runningSum.py
+  2-mostWordsFound.py
+  3-containsDuplicate.py
+
+Day 10/
+  1-LeftandRightSumDifferences.java
+  2-FindPivotIndex.java
+  3-GridGame.java
+```
 
 ## How to Use
 
-Open any solution file to review the approach and implementation.
-
-For Python solutions, you can run a file with:
+Open any file to review the implementation and approach. For Python files, you can run them with:
 
 ```bash
 python filename.py
 ```
 
+For Java files, compile and run them with a Java compiler or IDE.
+
 ## Notes
 
 - Solutions are written for learning and practice.
-- File names may include the LeetCode problem number and a short problem title.
-- More problems and explanations can be added over time.
+- File names are kept close to the original problem titles for easy reference.
+- The repository continues to grow as more problems are solved.
 
 ## License
 
-This repository is for personal learning and educational use.
+This repository is intended for personal learning and educational use.
