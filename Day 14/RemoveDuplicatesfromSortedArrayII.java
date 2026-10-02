@@ -10,21 +10,21 @@
 
 class Solution {
     public int removeDuplicates(int[] nums) {
-        int slow = 0;
+        int slow = 1;
         int count = 1;
 
         for (int i = 1; i < nums.length; i++) {
-            if (nums[i] == nums[slow]) {
+            if (nums[i] == nums[i - 1]) {
                 count++;
             } else {
                 count = 1;
             }
 
             if (count <= 2) {
-                nums[++slow] = nums[i];
+                nums[slow++] = nums[i];
             }
         }
 
-        return slow + 1;
+        return slow;
     }
 }
