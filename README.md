@@ -22,6 +22,7 @@ The workspace is organized into folders such as:
 - Day 12
 - Day 13
 - Day 14
+- Day 15
 
 Each folder contains multiple solution files, usually named with the problem number and title.
 
@@ -32,7 +33,7 @@ Each folder contains multiple solution files, usually named with the problem num
 
 ## Current Progress
 
-This repository currently includes over 38 solution files across the listed days, covering topics such as:
+This repository currently includes 41 solution files across the listed days, covering topics such as:
 
 - Arrays
 - Strings
@@ -57,6 +58,11 @@ Day 10/
   1-LeftandRightSumDifferences.java
   2-FindPivotIndex.java
   3-GridGame.java
+
+Day 15/
+  1-MaximumAverageSubarrayI.java
+  2-MaximumSumofDistinctSubarraysWithLengthK.java
+  3-PermutationinString.java
 ```
 
 ## How to Use
