@@ -1,12 +1,10 @@
 # DSA Practice Solutions
 
-This repository contains my daily LeetCode and DSA practice solutions, organized by day and topic.
-
-The purpose is to strengthen problem-solving skills, improve coding consistency, and keep a structured record of solved questions.
+This repository contains daily Data Structures and Algorithms practice solutions, mainly based on LeetCode-style questions and interview problems. Each day groups a small set of problems to build consistency, pattern recognition, and implementation speed.
 
 ## Repository Structure
 
-The workspace is organized into folders such as:
+The project is organized by daily practice session:
 
 - Day 1
 - Day 2
@@ -23,8 +21,9 @@ The workspace is organized into folders such as:
 - Day 13
 - Day 14
 - Day 15
+- Day 16
 
-Each folder contains multiple solution files, usually named with the problem number and title.
+Each folder contains multiple solution files, usually named after the problem number and title.
 
 ## Languages Used
 
@@ -33,20 +32,21 @@ Each folder contains multiple solution files, usually named with the problem num
 
 ## Current Progress
 
-This repository currently includes 41 solution files across the listed days, covering topics such as:
+This repository currently includes 43 solution files across 16 daily folders, covering core DSA topics such as:
 
-- Arrays
+- Arrays and vectors
 - Strings
 - Hashing
-- Two Pointers
-- Sliding Window
-- Stack / Queue
-- Prefix Sums
-- Greedy Logic
-- Binary Search
-- Dynamic Programming fundamentals
+- Two pointers
+- Sliding window
+- Stack and queue problems
+- Prefix sums
+- Greedy logic
+- Binary search
+- Dynamic programming fundamentals
+- Subarray and matrix problems
 
-## Example File Names
+## Example File Layout
 
 ```text
 Day 1/
@@ -59,27 +59,31 @@ Day 10/
   2-FindPivotIndex.java
   3-GridGame.java
 
-Day 15/
-  1-MaximumAverageSubarrayI.java
-  2-MaximumSumofDistinctSubarraysWithLengthK.java
-  3-PermutationinString.java
+Day 16/
+  3Sum.java
+  LongestSubstringWithoutRepeatingCharacters.java
 ```
 
 ## How to Use
 
-Open any file to review the implementation and approach. For Python files, you can run them with:
+Open any file to review the approach and implementation. For Python solutions, run them with:
 
 ```bash
 python filename.py
 ```
 
-For Java files, compile and run them with a Java compiler or IDE.
+For Java solutions, compile and run them using `javac` and `java`, or via your IDE:
+
+```bash
+javac FileName.java
+java FileName
+```
 
 ## Notes
 
-- Solutions are written for learning and practice.
-- File names are kept close to the original problem titles for easy reference.
-- The repository continues to grow as more problems are solved.
+- Solutions are meant for learning and personal practice.
+- File names are kept close to the original problem titles for easier reference.
+- The repository is updated as more daily problems are solved.
 
 ## License
 
