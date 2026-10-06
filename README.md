@@ -1,10 +1,19 @@
-# DSA Practice Solutions
+# 🚀 DSA Practice Solutions
 
-This repository contains daily Data Structures and Algorithms practice solutions, mainly based on LeetCode-style questions and interview problems. Each day groups a small set of problems to build consistency, pattern recognition, and implementation speed.
+> Daily problem-solving for Data Structures and Algorithms, with a focus on consistency, pattern recognition, and interview readiness.
 
-## Repository Structure
+This repository contains a collection of LeetCode-style and interview-focused solutions, organized by day. Each folder groups a small set of problems to help build momentum and improve problem-solving habits over time.
 
-The project is organized by daily practice session:
+## ✨ Highlights
+
+- Structured daily practice flow
+- Java and Python implementations
+- Core problem-solving patterns and techniques
+- Easy-to-navigate solution files by topic and day
+
+## 📁 Repository Structure
+
+The project is organized by daily challenge sessions:
 
 - Day 1
 - Day 2
@@ -22,31 +31,32 @@ The project is organized by daily practice session:
 - Day 14
 - Day 15
 - Day 16
+- Day 17
 
-Each folder contains multiple solution files, usually named after the problem number and title.
+Each folder contains multiple files with names that closely match the original problem title for quick lookup.
 
-## Languages Used
+## 🧠 Languages Used
 
 - Python
 - Java
 
-## Current Progress
+## 📊 Current Progress
 
-This repository currently includes 43 solution files across 16 daily folders, covering core DSA topics such as:
+This repository currently includes 45 solution files across 17 daily folders, covering essential DSA topics such as:
 
 - Arrays and vectors
-- Strings
-- Hashing
-- Two pointers
-- Sliding window
+- Strings and substring problems
+- Hashing and frequency maps
+- Two-pointer techniques
+- Sliding window patterns
 - Stack and queue problems
-- Prefix sums
-- Greedy logic
+- Prefix sums and cumulative logic
+- Greedy strategies
 - Binary search
 - Dynamic programming fundamentals
 - Subarray and matrix problems
 
-## Example File Layout
+## 🧩 Example File Layout
 
 ```text
 Day 1/
@@ -59,32 +69,33 @@ Day 10/
   2-FindPivotIndex.java
   3-GridGame.java
 
-Day 16/
-  3Sum.java
-  LongestSubstringWithoutRepeatingCharacters.java
+Day 17/
+  LongestRepeatingCharacterReplacement.java
 ```
 
-## How to Use
+## ▶️ How to Use
 
-Open any file to review the approach and implementation. For Python solutions, run them with:
+Open any file to review the logic, approach, and implementation style.
+
+For Python solutions:
 
 ```bash
 python filename.py
 ```
 
-For Java solutions, compile and run them using `javac` and `java`, or via your IDE:
+For Java solutions, compile and run with:
 
 ```bash
 javac FileName.java
 java FileName
 ```
 
-## Notes
+## 📝 Notes
 
-- Solutions are meant for learning and personal practice.
-- File names are kept close to the original problem titles for easier reference.
-- The repository is updated as more daily problems are solved.
+- Solutions are intended for learning and personal practice.
+- File names are kept close to the original problem titles for easier navigation.
+- The repository continues to grow as more daily problems are solved.
 
-## License
+## 📜 License
 
 This repository is intended for personal learning and educational use.
