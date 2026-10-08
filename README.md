@@ -1,19 +1,19 @@
 # 🚀 DSA Practice Solutions
 
-> Daily problem-solving for Data Structures and Algorithms, with a focus on consistency, pattern recognition, and interview readiness.
+> Daily problem-solving for data structures and algorithms, with a focus on consistency, pattern recognition, and interview readiness.
 
-This repository contains a collection of LeetCode-style and interview-focused solutions, organized by day. Each folder groups a small set of problems to help build momentum and improve problem-solving habits over time.
+This repository contains a curated set of LeetCode-style and interview-focused solutions, organized by daily practice sessions. Each folder groups a small number of problems so the learning flow feels structured and progressive.
 
-## ✨ Highlights
+## ✨ What this repo includes
 
-- Structured daily practice flow
-- Java and Python implementations
-- Core problem-solving patterns and techniques
-- Easy-to-navigate solution files by topic and day
+- Daily DSA practice folders from Day 1 through Day 18
+- Solutions in both Python and Java
+- Problems covering arrays, strings, hashing, stacks, sliding windows, binary search, and dynamic programming patterns
+- File names kept close to the original problem titles for easy lookup
 
-## 📁 Repository Structure
+## 📁 Repository structure
 
-The project is organized by daily challenge sessions:
+The project is organized by challenge day:
 
 - Day 1
 - Day 2
@@ -32,17 +32,18 @@ The project is organized by daily challenge sessions:
 - Day 15
 - Day 16
 - Day 17
+- Day 18
 
-Each folder contains multiple files with names that closely match the original problem title for quick lookup.
+Each folder contains one or more solution files with the relevant problem name and implementation.
 
-## 🧠 Languages Used
+## 🧠 Languages used
 
 - Python
 - Java
 
-## 📊 Current Progress
+## 📊 Current progress
 
-This repository currently includes 45 solution files across 17 daily folders, covering essential DSA topics such as:
+This repository currently contains 47 solution files across 18 daily folders, covering core interview and algorithm topics such as:
 
 - Arrays and vectors
 - Strings and substring problems
@@ -56,7 +57,7 @@ This repository currently includes 45 solution files across 17 daily folders, co
 - Dynamic programming fundamentals
 - Subarray and matrix problems
 
-## 🧩 Example File Layout
+## 🧩 Example layout
 
 ```text
 Day 1/
@@ -69,13 +70,14 @@ Day 10/
   2-FindPivotIndex.java
   3-GridGame.java
 
-Day 17/
-  LongestRepeatingCharacterReplacement.java
+Day 18/
+  MinimumWindowSubstring.java
+  SubstringsofSizeThreewithDistinctCharacters.java
 ```
 
-## ▶️ How to Use
+## ▶️ How to use
 
-Open any file to review the logic, approach, and implementation style.
+Open any file to review the approach, logic, and implementation style.
 
 For Python solutions:
 
@@ -83,7 +85,7 @@ For Python solutions:
 python filename.py
 ```
 
-For Java solutions, compile and run with:
+For Java solutions:
 
 ```bash
 javac FileName.java
@@ -92,8 +94,8 @@ java FileName
 
 ## 📝 Notes
 
-- Solutions are intended for learning and personal practice.
-- File names are kept close to the original problem titles for easier navigation.
+- The solutions are intended for learning, review, and interview preparation.
+- File names are kept close to the original problem titles to make navigation easier.
 - The repository continues to grow as more daily problems are solved.
 
 ## 📜 License
