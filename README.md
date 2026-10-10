@@ -6,9 +6,9 @@ This repository contains a curated set of LeetCode-style and interview-focused s
 
 ## ✨ What this repo includes
 
-- Daily DSA practice folders from Day 1 through Day 18
+- Daily DSA practice folders from Day 1 through Day 19
 - Solutions in both Python and Java
-- Problems covering arrays, strings, hashing, stacks, sliding windows, binary search, and dynamic programming patterns
+- Problems covering arrays, strings, hashing, stacks, sliding windows, binary search, dynamic programming patterns, and linked list operations
 - File names kept close to the original problem titles for easy lookup
 
 ## 📁 Repository structure
@@ -33,6 +33,7 @@ The project is organized by challenge day:
 - Day 16
 - Day 17
 - Day 18
+- Day 19
 
 Each folder contains one or more solution files with the relevant problem name and implementation.
 
@@ -43,7 +44,7 @@ Each folder contains one or more solution files with the relevant problem name a
 
 ## 📊 Current progress
 
-This repository currently contains 47 solution files across 18 daily folders, covering core interview and algorithm topics such as:
+This repository currently contains 50 solution files across 19 daily folders, covering core interview and algorithm topics such as:
 
 - Arrays and vectors
 - Strings and substring problems
@@ -56,6 +57,7 @@ This repository currently contains 47 solution files across 18 daily folders, co
 - Binary search
 - Dynamic programming fundamentals
 - Subarray and matrix problems
+- Linked list manipulation and pointer-based problems
 
 ## 🧩 Example layout
 
@@ -73,6 +75,11 @@ Day 10/
 Day 18/
   MinimumWindowSubstring.java
   SubstringsofSizeThreewithDistinctCharacters.java
+
+Day 19/
+  DesignLinkedList.java
+  DeleteNodeinaLinkedList.java
+  RemoveLinkedListElements.java
 ```
 
 ## ▶️ How to use
