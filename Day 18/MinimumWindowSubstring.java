@@ -4,8 +4,6 @@ Given two strings s and t of lengths m and n respectively, return the minimum wi
 The testcases will be generated such that the answer is unique.
 */
 
-import java.util.*;
-
 class Solution {
     private int getIndex(char c) {
         if (Character.isLowerCase(c)) {
