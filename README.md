@@ -70,6 +70,11 @@ Day 1/
   2-mostWordsFound.py
   3-containsDuplicate.py
 
+Day 9/
+  1-IntersectionofTwoArrays.py
+  2-FindAllDuplicatesinanArray.py
+  3-LongestConsecutiveSequence.py
+
 Day 10/
   1-LeftandRightSumDifferences.java
   2-FindPivotIndex.java
