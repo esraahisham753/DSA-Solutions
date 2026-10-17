@@ -6,7 +6,7 @@ This repository contains a curated set of LeetCode-style and interview-focused s
 
 ## ✨ What this repo includes
 
-- Daily DSA practice folders from Day 1 through Day 24
+- Daily DSA practice folders from Day 1 through Day 25
 - Solutions in both Python and Java
 - Problems covering arrays, strings, hashing, stacks, sliding windows, binary search, dynamic programming patterns, and linked list operations
 - File names kept close to the original problem titles for easy lookup
@@ -39,6 +39,7 @@ The project is organized by challenge day:
 - Day 22
 - Day 23
 - Day 24
+- Day 25
 
 Each folder contains one or more solution files with the relevant problem name and implementation.
 
@@ -49,7 +50,7 @@ Each folder contains one or more solution files with the relevant problem name a
 
 ## 📊 Current progress
 
-This repository currently contains 63 solution files across 24 daily folders, covering core interview and algorithm topics such as:
+This repository currently contains 66 solution files across 25 daily folders, covering core interview and algorithm topics such as:
 
 - Arrays and vectors
 - Strings and substring problems
@@ -113,6 +114,9 @@ Day 24/
   PalindromeLinkedList.java
   RemoveNthNodeFromEndofList.java
   Reverse Nodes in k-Group.java
+
+Day 25/
+  AsteroidCollision.java
 ```
 
 ## ▶️ How to use
