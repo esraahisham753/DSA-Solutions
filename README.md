@@ -6,14 +6,14 @@ This repository contains a curated set of LeetCode-style and interview-focused s
 
 ## ✨ What this repo includes
 
-- Daily DSA practice folders from Day 1 through Day 35
+- Daily DSA practice folders from Day 1 through Day 36
 - Solutions in both Python and Java
 - Problems covering arrays, strings, hashing, stacks, sliding windows, binary search, dynamic programming patterns, and linked list operations
 - File names kept close to the original problem titles for easy lookup
 
 ## 📁 Repository structure
 
-The project is organized by challenge day and currently spans Day 1 through Day 35:
+The project is organized by challenge day and currently spans Day 1 through Day 36:
 
 - Day 1
 - Day 2
@@ -50,6 +50,7 @@ The project is organized by challenge day and currently spans Day 1 through Day 
 - Day 33
 - Day 34
 - Day 35
+- Day 36
 
 Each folder contains one or more solution files with the relevant problem name and implementation.
 
@@ -60,7 +61,7 @@ Each folder contains one or more solution files with the relevant problem name a
 
 ## 📊 Current progress
 
-This repository currently contains 87 solution files across 35 daily folders, covering core interview and algorithm topics such as:
+This repository currently contains 89 solution files across 36 daily folders, covering core interview and algorithm topics such as:
 
 - Arrays and vectors
 - Strings and substring problems
@@ -74,6 +75,7 @@ This repository currently contains 87 solution files across 35 daily folders, co
 - Greedy strategies
 - Binary search
 - Search in sorted arrays, including finding element ranges and k closest elements
+- Binary search in rotated arrays and interval lookup
 - Dynamic programming fundamentals
 - Subarray and matrix problems
 - Linked list manipulation and pointer-based problems
@@ -171,6 +173,10 @@ Day 34/
 Day 35/
   InsertInterval.java
   MeetingRooms.java
+
+Day 36/
+  FindRightInterval.java
+  SearchinRotatedSortedArray.java
 ```
 
 ## ▶️ How to use
