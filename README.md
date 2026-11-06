@@ -6,14 +6,14 @@ This repository contains a curated set of LeetCode-style and interview-focused s
 
 ## ✨ What this repo includes
 
-- Daily DSA practice folders from Day 1 through Day 37
+- Daily DSA practice folders from Day 1 through Day 38
 - Solutions in both Python and Java
 - Problems covering arrays, strings, hashing, stacks, sliding windows, binary search, dynamic programming patterns, and linked list operations
 - File names kept close to the original problem titles for easy lookup
 
 ## 📁 Repository structure
 
-The project is organized by challenge day and currently spans Day 1 through Day 37:
+The project is organized by challenge day and currently spans Day 1 through Day 38:
 
 - Day 1
 - Day 2
@@ -52,6 +52,7 @@ The project is organized by challenge day and currently spans Day 1 through Day 
 - Day 35
 - Day 36
 - Day 37
+- Day 38
 
 Each folder contains one or more solution files with the relevant problem name and implementation.
 
@@ -62,7 +63,7 @@ Each folder contains one or more solution files with the relevant problem name a
 
 ## 📊 Current progress
 
-This repository currently contains 92 solution files across 37 daily folders, covering core interview and algorithm topics such as:
+This repository currently contains 94 solution files across 38 daily folders, covering core interview and algorithm topics such as:
 
 - Arrays and vectors
 - Strings and substring problems
@@ -181,6 +182,10 @@ Day 36/
 
 Day 37/
   CombinationSum.py
+
+Day 38/
+  CombinationSumII.py
+  Combinations.py
 ```
 
 ## ▶️ How to use
