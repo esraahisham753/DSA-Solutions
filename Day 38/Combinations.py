@@ -3,18 +3,24 @@
 # You may return the answer in any order.
 
 class Solution:
-    def recCombine(self, n: int, k: int, combination: list[int], ind: int, output: list[list[int]]) -> list[list[int]]: 
-        remaining = k - len(combination)
-
-        if len(combination) == k:
-            output.append(combination)
-
-            return output
-        
-        for i in range(ind, n - remaining + 2):
-            self.recCombine(n, k, combination + [i], i + 1, output)
-        
-        return output
-
     def combine(self, n: int, k: int) -> list[list[int]]:
-        return self.recCombine(n, k, [], 1, [])
+        res = []
+
+        def dfs(i, combination):
+            if len(combination) == k:
+                res.append(combination.copy())
+
+                return
+            
+            if i > n:
+                return
+            
+            combination.append(i)
+            dfs(i + 1, combination)
+            combination.pop()
+
+            dfs(i + 1, combination)
+        
+        dfs(1, [])
+
+        return res
