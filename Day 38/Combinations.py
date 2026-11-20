@@ -12,11 +12,14 @@ class Solution:
 
                 return
             
-            if i > n:
+            # capacity check
+            if n - i + 1 < k - len(combination):
                 return
             
             combination.append(i)
+
             dfs(i + 1, combination)
+
             combination.pop()
 
             dfs(i + 1, combination)
